@@ -14,7 +14,7 @@
 }
 *{
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
   height: 100%;
@@ -52,11 +52,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-bottom: 57px;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -191,6 +191,15 @@ body {
   -ms-grid-row: 13;
   -ms-grid-column: 7;
 }
+.column__list {
+  display: -ms-grid;
+  display: grid;
+  gap: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
 .gallery__title {
   margin-top: 0;
   margin-bottom: 7px;
@@ -214,34 +223,28 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   padding: 114px 32px 33px 32px;
   background-image: url("./images/staray.png");
   background-size: cover;
   background-position: 100%;
 }
 .girl {
-  -ms-grid-column: 2;
-  grid-column: 2;
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  -ms-grid-row-span: 2;
-  grid-row-end: 3;
   padding: 285px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/gril.png");
   background-size: cover;
   background-position: 100%;
@@ -253,77 +256,59 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/guernisa.png");
   background-size: cover;
   background-position: 100%;
 }
 .penitent {
-  -ms-grid-column: 4;
-  grid-column: 4;
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  -ms-grid-row-span: 2;
-  grid-row-end: 3;
   padding: 285px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/penitent.png");
   background-size: cover;
   background-position: 100%;
 }
 .storm {
-  -ms-grid-column: 1;
-  grid-column: 1;
-  -ms-grid-row: 2;
-      grid-row-start: 2;
-  -ms-grid-row-span: 2;
-  grid-row-end: 4;
   padding: 285px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/storm.png");
   background-size: cover;
   background-position: 100%;
 }
 .gogh {
-  -ms-grid-column: 3;
-  grid-column: 3;
-  -ms-grid-row: 2;
-      grid-row-start: 2;
-  -ms-grid-row-span: 3;
-  grid-row-end: 5;
   padding: 485px 32px 32px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/van.png");
   background-size: cover;
   background-position: 70%;
@@ -335,11 +320,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/wave.png");
   background-size: cover;
   background-position: 100%;
@@ -351,100 +336,76 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/sliping.png");
   background-size: cover;
   background-position: 100%;
 }
 
 .lady {
-  -ms-grid-column: 1;
-  grid-column: 1;
-  -ms-grid-row: 4;
-      grid-row-start: 4;
-  -ms-grid-row-span: 3;
-  grid-row-end: 7;
   padding: 485px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/lady.png");
   background-size: cover;
   background-position: 100%;
 }
 .cafe {
-  -ms-grid-column: 2;
-  grid-column: 2;
-  -ms-grid-row: 4;
-      grid-row-start: 4;
-  -ms-grid-row-span: 2;
-  grid-row-end: 6;
   padding: 314px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/cafe.png");
   background-size: cover;
   background-position: 100%;
 }
 .monolisa {
-  -ms-grid-column: 3;
-  grid-column: 3;
-  -ms-grid-row: 5;
-      grid-row-start: 5;
-  -ms-grid-row-span: 2;
-  grid-row-end: 7;
   padding: 314px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/monalisa.png");
   background-size: cover;
   background-position: 100%;
 }
 .boy {
-  -ms-grid-column: 1;
-  grid-column: 1;
-  -ms-grid-row: 7;
-      grid-row-start: 7;
-  -ms-grid-row-span: 1;
-  grid-row-end: 8;
   padding: 85px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/boy.png");
   background-size: cover;
   background-position: 100%;
@@ -456,11 +417,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-size: contain;
   background-image: url("./images/basket.png");
   background-size: cover;
@@ -468,67 +429,49 @@ body {
 }
 
 .arnolfini {
-  -ms-grid-column: 2;
-  grid-column: 2;
-  -ms-grid-row: 6;
-      grid-row-start: 6;
-  -ms-grid-row-span: 2;
-  grid-row-end: 8;
   padding: 314px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/arnol.png");
   background-size: cover;
   background-position: 50%;
 }
 .gypsy {
-  -ms-grid-column: 3;
-  grid-column: 3;
-  -ms-grid-row: 7;
-      grid-row-start: 7;
-  -ms-grid-row-span: 1;
-  grid-row-end: 8;
   padding: 85px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/sliping.png");
   background-size: cover;
   background-position: 100%;
 }
 .swing {
-  -ms-grid-column: 4;
-  grid-column: 4;
-  -ms-grid-row: 5;
-      grid-row-start: 5;
-  -ms-grid-row-span: 3;
-  grid-row-end: 8;
   padding: 514px 32px 33px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   background-image: url("./images/swing.png");
   background-size: cover;
   background-position: 100%;
